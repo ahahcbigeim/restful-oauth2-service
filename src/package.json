@@ -1,0 +1,37 @@
+{
+	"name": "restful-oauth2-service",
+	"description": "RESTful service with Oauth2 authentication in client credentials mode",
+	"version": "0.0.1",
+
+	"main": "server.js",
+
+	"private": true,
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/ahahcbigeim/restful-oauth2-service.git"
+	},
+
+	"engines":
+	{
+		"node": ">= 0.1.25"
+	},
+	
+	"dependencies":
+	{
+		"async": "*",
+		"jshashes": "1.0.4",
+		"lodash-node": "*",
+		"mongoose": "3.8.x",
+		"nconf": "*",
+		"nohm": "0.9.5",
+		"pg": "3.0.3",
+		"redis" : "0.10.x",
+		"restify" : "2.7.x",
+		"restify-oauth2" : "4.x",
+		"tokenthrottle" : "1.1.x",
+		"tokenthrottle-redis" : "1.1.x",
+		"underscore": "1.x",
+		"winston": "*"
+	}
+}

@@ -1,0 +1,28 @@
+{
+    "port": 3030,
+    "throttle":
+    {
+        "rate" : 1,
+        "burst": 1,
+        "expiry": 0,
+        "overrides":
+        {
+            "OfficialClient":
+            {
+                "rate" : 0,
+                "burst": 0
+            }
+        }
+    },
+    "redis":
+    {
+        "host": "localhost",
+        "port": 6379,
+        "db": 3,
+        "pass": "",
+        "options":
+        {
+            "max_attempts" : 2
+        }
+    }
+}
